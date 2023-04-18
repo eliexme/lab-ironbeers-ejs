@@ -1,0 +1,8 @@
+<div class="allBeers">
+    <% beersArr.forEach(eachBeer => { %>
+        <div class="eachBeerDiv">
+            <%- include ('./partials/beerCommons.ejs', {eachBeer}) %>
+        </div>
+        
+    <% }) %>
+</div>

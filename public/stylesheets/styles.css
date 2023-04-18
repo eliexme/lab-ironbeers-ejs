@@ -5,3 +5,50 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+body{
+    margin: 0;
+}
+nav{
+    background-color: #2081c3;
+    padding: 1rem;
+}
+
+.eachBeerDiv img{
+    max-width: 5rem;
+}
+
+.index-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.allBeers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.eachBeerDiv{
+    background-color: lightgrey;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+h4{
+    margin: 0;
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+
+.tagline {
+    color: blue;
+}
